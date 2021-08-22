@@ -1,0 +1,209 @@
+<html>
+    <head>
+    	<style>
+    		input[type=checkbox] {
+                visibility: hidden;
+            }
+			.container{  
+            }
+            /* ROUNDED ONE */
+            .greenLed {
+                width: 68px;
+                height: 68px;
+                background: #fcfff4;
+                background: -webkit-linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+                background: -moz-linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+                background: -o-linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+                background: -ms-linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+                background: linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+                filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfff4', endColorstr='#b3bead',GradientType=0 );
+                margin: 20px auto;
+                -webkit-border-radius: 50px;
+                -moz-border-radius: 50px;
+                border-radius: 50px;
+                -webkit-box-shadow: inset 0px 1px 1px white, 0px 1px 3px rgba(0,0,0,0.5);
+                -moz-box-shadow: inset 0px 1px 1px white, 0px 1px 3px rgba(0,0,0,0.5);
+                box-shadow: inset 0px 1px 1px white, 0px 1px 3px rgba(0,0,0,0.5);
+                position: relative;
+            }
+            .greenLed label {
+                cursor: pointer;
+                position: absolute;
+                width: 60px;
+                height: 60px;
+                -webkit-border-radius: 50px;
+                -moz-border-radius: 50px;
+                border-radius: 50px;
+                left: 4px;
+                top: 4px;
+                -webkit-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.5), 0px 1px 0px rgba(255,255,255,1);
+                -moz-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.5), 0px 1px 0px rgba(255,255,255,1);
+                box-shadow: inset 0px 1px 1px rgba(0,0,0,0.5), 0px 1px 0px rgba(255,255,255,1);
+                background: -webkit-linear-gradient(top, #00bf00 0%, #009400 100%);
+                background: -moz-linear-gradient(top, #00bf00 0%, #009400 100%);
+                background: -o-linear-gradient(top, #00bf00 0%, #009400 100%);
+                background: -ms-linear-gradient(top, #00bf00 0%, #009400 100%);
+                background: linear-gradient(top, #00bf00 0%, #009400 100%);
+                filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#222', endColorstr='#45484d',GradientType=0 );
+            }
+            .greenLed label:after {
+                -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+                filter: alpha(opacity=0);
+                opacity: 0;
+                content: '';
+                position: absolute;
+                width: 56px;
+                height: 56px;
+                background: #00bf00;
+                background: -webkit-linear-gradient(top, #00bf00 0%, #009400 100%);
+                background: -moz-linear-gradient(top, #00bf00 0%, #009400 100%);
+                background: -o-linear-gradient(top, #00bf00 0%, #009400 100%);
+                background: -ms-linear-gradient(top, #00bf00 0%, #009400 100%);
+                background: linear-gradient(top, #00bf00 0%, #009400 100%);
+                -webkit-border-radius: 50px;
+                -moz-border-radius: 50px;
+                border-radius: 50px;
+                top: 2px;
+                left: 2px;
+                -webkit-box-shadow: inset 0px 1px 1px white, 0px 1px 3px rgba(0,0,0,0.5);
+                -moz-box-shadow: inset 0px 1px 1px white, 0px 1px 3px rgba(0,0,0,0.5);
+                box-shadow: inset 0px 1px 1px white, 0px 1px 3px rgba(0,0,0,0.5);
+            }
+            .greenLed label:hover::after {
+                -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+                filter: alpha(opacity=100);
+                opacity: 0.3;
+            }
+            .greenLed input[type=checkbox]:checked + label:after {
+                -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+                filter: alpha(opacity=100);
+                opacity: 1;
+            }
+
+             /* ROUNDED ONE */
+            .redLed {
+                width: 68px;
+                height: 68px;
+                background: #fcfff4;
+                background: -webkit-linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+                background: -moz-linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+                background: -o-linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+                background: -ms-linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+                background: linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+                filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfff4', endColorstr='#b3bead',GradientType=0 );
+                margin: 20px auto;
+                -webkit-border-radius: 50px;
+                -moz-border-radius: 50px;
+                border-radius: 50px;
+                -webkit-box-shadow: inset 0px 1px 1px white, 0px 1px 3px rgba(0,0,0,0.5);
+                -moz-box-shadow: inset 0px 1px 1px white, 0px 1px 3px rgba(0,0,0,0.5);
+                box-shadow: inset 0px 1px 1px white, 0px 1px 3px rgba(0,0,0,0.5);
+                position: relative;
+            }
+            .redLed label {
+                cursor: pointer;
+                position: absolute;
+                width: 60px;
+                height: 60px;
+                -webkit-border-radius: 50px;
+                -moz-border-radius: 50px;
+                border-radius: 50px;
+                left: 4px;
+                top: 4px;
+                -webkit-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.5), 0px 1px 0px rgba(255,255,255,1);
+                -moz-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.5), 0px 1px 0px rgba(255,255,255,1);
+                box-shadow: inset 0px 1px 1px rgba(0,0,0,0.5), 0px 1px 0px rgba(255,255,255,1);
+                background: -webkit-linear-gradient(top, #bf0000 0%, #940000 100%);
+                background: -moz-linear-gradient(top, #bf0000 0%, #940000 100%);
+                background: -o-linear-gradient(top, #bf0000 0%, #940000 100%);
+                background: -ms-linear-gradient(top, #bf0000 0%, #940000 100%);
+                background: linear-gradient(top, #bf0000 0%, #940000 100%);
+                filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#222', endColorstr='#45484d',GradientType=0 );
+            }
+            .redLed label:after {
+                -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+                filter: alpha(opacity=0);
+                opacity: 0;
+                content: '';
+                position: absolute;
+                width: 56px;
+                height: 56px;
+                background: #00bf00;
+                background: -webkit-linear-gradient(top, #bf0000 0%, #940000 100%);
+                background: -moz-linear-gradient(top, #bf0000 0%, #940000 100%);
+                background: -o-linear-gradient(top, #bf0000 0%, #940000 100%);
+                background: -ms-linear-gradient(top, #bf0000 0%, #940000 100%);
+                background: linear-gradient(top, #bf0000 0%, #940000 100%);
+                -webkit-border-radius: 50px;
+                -moz-border-radius: 50px;
+                border-radius: 50px;
+                top: 2px;
+                left: 2px;
+                -webkit-box-shadow: inset 0px 1px 1px white, 0px 1px 3px rgba(0,0,0,0.5);
+                -moz-box-shadow: inset 0px 1px 1px white, 0px 1px 3px rgba(0,0,0,0.5);
+                box-shadow: inset 0px 1px 1px white, 0px 1px 3px rgba(0,0,0,0.5);
+            }
+            .redLed label:hover::after {
+                -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+                filter: alpha(opacity=30);
+                opacity: 0.3;
+            }
+            .redLed input[type=checkbox]:checked + label:after {
+                -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+                filter: alpha(opacity=100);
+                opacity: 1;
+            }
+
+
+    	</style>
+
+
+        <script src="https://www.gstatic.com/firebasejs/4.3.0/firebase.js"></script>
+    	<script>
+
+            // Initialize Firebase
+            var config = {
+                apiKey: "AIzaSyDMnguSRxBPf9PWsKCdNuaUeM8V-3izkeY",
+                authDomain: "esp8266burapha.firebaseapp.com",
+                databaseURL: "https://esp8266burapha.firebaseio.com",
+                projectId: "esp8266burapha",
+                storageBucket: "esp8266burapha.appspot.com",
+                messagingSenderId: "876376778711"
+            };
+            firebase.initializeApp(config);
+            
+            function writeNewPost(status) {
+              // A post entry.
+              var postData = {
+                SmartPlug: status
+              };
+              return firebase.database().ref().update(postData);
+            }
+
+             function writeNewPost_red(status) {
+              // A post entry.
+              var postData_red = {
+                SmartPlug: status
+              };
+              return firebase.database().ref().update(postData_red);
+            }
+
+		</script>
+
+	</head>
+
+	<body>
+            <div align="center" vertical-align="middle" style="transform: translateY(50%)">
+     			<div class="greenLed">
+                	<input type="checkbox" value="None" id="greenled" name="check" onclick="writeNewPost(1)">
+                    <label for="greenled"></label>
+				</div>
+			</div>
+            <div align="center" vertical-align="middle" style="transform: translateY(50%)">
+                <div class="redLed">
+                    <input type="checkbox" value="None" id="redled" name="check" onclick="writeNewPost_red(0)">
+                    <label for="redled"></label>
+                </div>
+            </div>
+	</body>
+</html>
