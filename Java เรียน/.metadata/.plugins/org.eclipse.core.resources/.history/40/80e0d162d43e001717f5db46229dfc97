@@ -1,0 +1,29 @@
+
+package com.olanlab.share.exam;
+
+import java.util.Scanner;
+
+public class Acronym {
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        String sentence;
+        String offwords[] = {"i", "of", "the", "on", "at", "for", "with", "a", "an", "in"};
+		
+        sentence = scan.nextLine();
+        String words[] = sentence.split(" ");
+		
+        for (String word : words) {
+	   boolean skip = false;
+	   for (String offword : offwords) {
+	      if (word.equals(offword)) {
+   	         skip = true;
+	      }
+           }
+	   if (skip) { 
+	      continue;
+	   } else {
+	      System.out.print(word.toUpperCase().charAt(0));
+	   }
+	}
+   }
+}

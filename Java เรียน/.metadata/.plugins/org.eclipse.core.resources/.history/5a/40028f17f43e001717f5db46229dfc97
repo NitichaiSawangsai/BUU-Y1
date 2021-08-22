@@ -1,0 +1,11 @@
+import java.util.Scanner;
+public class กลับตัวเลย_week2 {
+    public static void main (String[] args){
+       Scanner kb = new Scanner(System.in); 
+       /*  อ่านข้อมูลจากคีย์บอร์ดมาเก็บในตัวแปร     */
+       int x=kb.nextInt();         // ตัวเลขจำนวนเต็ม
+       int  xx=kb.nextDouble();    // ตัวเลขจำนวนทศนิยม
+       String ch=kb.next();        // ข้อควม
+       
+    }
+}

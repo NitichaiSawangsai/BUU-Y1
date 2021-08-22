@@ -1,0 +1,6 @@
+import java.util.Scanner;
+public class กลับตัวเลย_week2 {
+    public static void main (String[] args){
+       int count=0;	
+    }
+}
