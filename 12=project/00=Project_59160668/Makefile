@@ -1,0 +1,6 @@
+59160668tor: 59160668tor.c 59160668lib.o 59160668tor.h
+	gcc -o 59160668tor 59160668tor.c 59160668lib.o 
+59160668lib.o: 59160668lib.c 59160668tor.h
+	gcc -c 59160668lib.c
+clean:
+	rm -rf *.o 59160668tor
