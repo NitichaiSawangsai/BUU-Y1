@@ -1,0 +1,9 @@
+
+public class ex01 {
+ public static void main(String[] args){
+	 System.out.println("Nitichai Sawangsai");
+	 Scanner scan = new Scanner(System.in);
+     String sentence;
+     String offwords[] = {"i", "of", "the", "on", "at", "for", "with", "a", "an", "in"};
+ }
+}

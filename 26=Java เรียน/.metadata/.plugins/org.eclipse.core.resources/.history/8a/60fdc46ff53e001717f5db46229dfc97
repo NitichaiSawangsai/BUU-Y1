@@ -1,0 +1,15 @@
+import java.util.Scanner;
+public class กลับตัวเลย_week2 {
+    public static void main (String[] args){
+       Scanner aom = new Scanner(System.in); //ประกาศตัวแปรสำหรับใช้อ่านข้อมูลเข้า
+       /*  อ่านข้อมูลจากคีย์บอร์ดมาเก็บในตัวแปร     */
+       int x=aom.nextInt();            // ตัวเลขจำนวนเต็ม
+       double  xx=aom.nextDouble();    // ตัวเลขจำนวนทศนิยม
+       char ch=aom.next().charAt(1);   // อักษร เก็บอักขระตาม charAt(จำนวน);  
+      // String chh=aom.next();          // ข้อควม
+    
+     String name;
+     name=aom.next();
+       System.out.print(name);
+    }
+}

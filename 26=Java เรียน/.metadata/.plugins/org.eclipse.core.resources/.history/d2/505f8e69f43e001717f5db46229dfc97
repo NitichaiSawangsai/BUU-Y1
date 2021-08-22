@@ -1,0 +1,13 @@
+import java.util.Scanner;
+public class กลับตัวเลย_week2 {
+    public static void main (String[] args){
+       Scanner kb = new Scanner(System.in); //ประกาศตัวแปรสำหรับใช้อ่านข้อมูลเข้า
+       /*  อ่านข้อมูลจากคีย์บอร์ดมาเก็บในตัวแปร     */
+       int x=kb.nextInt();         // ตัวเลขจำนวนเต็ม
+       double  xx=kb.nextDouble();    // ตัวเลขจำนวนทศนิยม
+       char ch=kb.next().charAt(1);   
+       String chh=kb.next();        // ข้อควม
+       
+       
+    }
+}

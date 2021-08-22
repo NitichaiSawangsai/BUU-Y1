@@ -1,0 +1,6 @@
+
+public class print Nitichai  {
+ public static void main(String[] args){
+	 System.out.println("Nitichai Sawangsai");
+ }
+}

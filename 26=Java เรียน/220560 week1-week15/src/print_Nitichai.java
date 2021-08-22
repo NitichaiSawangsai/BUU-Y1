@@ -1,0 +1,20 @@
+public class áÊ´§Nitichai_week01 {
+ public static void main(String[] args){
+	 System.out.println("Nitichai Sawangsai");
+	 System.out.print("Nitichai");
+	 System.out.println(" ¹Ô¸ÔªÑÂ");
+	 System.out.print("3+4 = ");
+	 System.out.println(3+4);
+	 System.out.println(3+" ^-^ 4");
+	 System.out.println("3+4 = "+(3+4));
+	 System.out.println("3+4 = "+3+4);
+	 System.out.println("+---+\n|BUU|\n+---+");
+	 System.out.println("===========\nInformatics\n===========");
+     System.out.println("áÁèÊÙµÃ¤Ù³");
+   int n=4;
+     System.out.println( n+"x1 = "+n*1);
+     System.out.println( n+"x2 = "+n*2);
+     System.out.println( n+"x3 = "+n*3);
+     System.out.println( n+"x4 = "+n*4);
+ }
+}
